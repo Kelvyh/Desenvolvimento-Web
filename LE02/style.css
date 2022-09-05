@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+.navegacao a, .publicacoes a{
+    text-decoration-line: none;
+}
+
+.navegacao a:hover, .publicacoes a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 50px;
+}
+
+.estatisticas li {
+    color: rgb(83, 100, 113);
+}
+
+.estatisticas li > span {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.estatisticas li:hover {
+    text-decoration: underline;
+}
+
+.acoes a {
+    color: rgb(83, 100, 113);
+}
+
+.acoes a.reply:hover, .acoes a.share:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.acoes a.retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+
+.acoes a.like:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
+
+.acoes a:hover {
+    border-radius: 50px;
+}
+
+.arroba {
+    color: rgb(83, 100, 113);
+}
+
+.local-data {
+    color: rgb(83, 100, 113);
+}
+
+.tzeet:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
