@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://icons.getbootstrap.com/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>LE03</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+    
+    <div class="container">
+        <div class="row">
+            <div class="left col-2 mt-2 p-0">
+                <a href="#"><img src="images/tzeeter.png" alt="tzeeter"></a>
+                <ul class="navegacao">
+                    <li id="home" class="mt-1"><a href="#"><img src="images/home.svg" alt="home"> Home</a></li>
+                    <li id="explore" class="mt-3"><a href="#"><img src="images/explore.svg" alt="explore"> Explore</a></li>
+                    <li id="notifications" class="mt-3"><a href="#"><img src="images/notifications.svg" alt="notifications"> Notifications</a></li>
+                    <li id="messages" class="mt-3"><a href="#"><img src="images/messages.svg" alt="messages"> Messages</a></li>
+                    <li id="profile" class="mt-3"><a href="#"><img src="images/profile.svg" alt="profile"> Profile</a></li>
+                    <li id="more" class="mt-3"><a href="#"><img src="images/more.svg" alt="more"> More</a></li>
+                </ul>
+                <button id="tzeet">Tzeet</button>
+            </div>
+            <div class="center col me-2 mt-2 border-start border-end p-0">
+                <img src="images/unnamed.png" alt="Knight King" width="128px" height="128px" class="rounded-circle ps-3">
+                <div class="position-relative">
+                    <button type="button" class="btn btn-primary position-absolute bottom-0 end-0 pe-3">Edit Profile</button>
+                </div>
+                <h4 class="ps-3">Kelvy Hallyson Leoncio Silva</h4>
+                <h5 class="arroba ps-3">@kelvyh</h5>
+                <p class="ps-3">
+                    Backend Developer. Student at UFC.
+                </p>
+                <ul class="local-data ps-3">
+                    <li><img src="images/local.svg" alt="local"> Quixadá</li>
+                    <li><img src="images/data.svg" alt="data"> Joined August 2022</li>
+                </ul>
+                <ul class="estatisticas ps-3">
+                    <li><span>1592</span> Following</li>
+                    <li><span>513</span> Followers</li>
+                </ul>
+                <div class="conteiner">
+                    <div class="row m-0">
+                        <a href="#" class="col p-2 text-dark">Tzeets</a>
+                        <a href="#" class="col-4 p-2 text-decoration-none text-center">Tzeets & replies</a>
+                        <a href="#" class="col p-2 text-decoration-none text-center">Media</a>
+                        <a href="#" class="col p-2 text-decoration-none text-center">Links</a>
+                    </div>
+                </div>
+                <p class="tzeet border-top">
+                    <img src="images/unnamed.png" alt="Knight King" width="64px" height="64px" class="rounded-circle"><br>
+                    Kelvy Hallyson Leoncio Silva <span class="arroba">@kelvyh</span> <span class="local-data">Aug 22, 2022</span>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore animi sit labore esse! Eos exercitationem voluptates odio quas laudantium eaque. Ipsam eligendi nemo cum vero. Nihil corrupti accusantium maxime consequuntur. <br>
+                    <div class="acoes row">
+                        <a href="#" class="reply col-2"><i class="bi bi-chat"></i> 200</a>
+                        <a href="#" class="retzeet col-2"><i class="bi bi-arrow-repeat"></i> 100</a>
+                        <a href="#" class="like col-2"><i class="bi bi-heart"></i> 120</a>
+                        <a href="#" class="share col-2"><i class="bi bi-upload"></i></a>
+                    </div>
+                </p>
+            </div>
+            <div class="right col-3 mt-2 d-none d-md-block">
+                <div class="row mb-2">
+                    <form action="#" name="username"><img src="images/search.svg" alt="search"><input   type="text" placeholder="Username"></form>
+                </div>
+                <div class="row sugestions">
+                    <div class="mt-2 ms-4 fs-5 fw-bold">Talvez você curta</div>
+                    <div class="container">
+                        <div class="row m-2">
+                            <div class="col">
+                                <img src="images/man.png" alt="man" width="48px" height="48px" class="rounded-circle">
+                            </div>
+                            <div class="col align-self-end">
+                                <a href="#">Carlos</a>
+                            </div>
+                            <div class="col align-self-end">
+                                <button type="button" class="btn btn-primary">Seguir</button>
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col">
+                                <img src="images/woman.png" alt="man" width="48px" height="48px" class="rounded-circle">
+                            </div>
+                            <div class="col align-self-end">
+                                <a href="#">Maria</a>
+                            </div>
+                            <div class="col align-self-end">
+                                <button type="button" class="btn btn-primary">Seguir</button></a>
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col">
+                                <img src="images/woman.png" alt="man" width="48px" height="48px" class="rounded-circle">
+                            </div>
+                            <div class="col align-self-end">
+                                <a href="#">Ana</a>
+                            </div>
+                            <div class="col align-self-end">
+                                <button type="button" class="btn btn-primary">Seguir</button>
+                            </div>
+                        </div>
+                        <div class="ms-4">
+                            <a href="#" >Mostrar mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
