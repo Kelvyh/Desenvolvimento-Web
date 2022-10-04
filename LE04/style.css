@@ -1,0 +1,184 @@
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+.navegacao a{
+    color: rgb(15, 20, 25);
+    text-decoration-line: none;
+}
+
+.navegacao li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 50px;
+}
+
+.estatisticas li {
+    color: rgb(83, 100, 113);
+}
+
+.estatisticas li > span {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.estatisticas li:hover {
+    text-decoration: underline;
+}
+
+.acoes a {
+    color: rgb(83, 100, 113);
+}
+
+.acoes a.reply:hover, .acoes a.share:hover {
+    color: rgba(29, 155, 240, 1);
+}
+
+.acoes a.retzeet:hover {
+    color: rgba(0, 186, 124, 1);
+}
+
+.acoes a.like:hover {
+    color: rgba(249, 24, 128, 1);
+}
+
+.acoes a:hover {
+    border-radius: 50px;
+}
+
+.arroba {
+    color: rgb(83, 100, 113);
+}
+
+.local-data {
+    color: rgb(83, 100, 113);
+}
+
+.tzeet:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.navegacao {
+    list-style-type: none;
+}
+
+#tzeet {
+    border: 0px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 5px 41px;
+    border-radius: 50px;
+}
+
+.navegacao {
+    padding: 0;
+}
+
+ul.local-data {
+    padding: 0;
+    overflow: hidden;
+}
+
+.local-data li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0px 5px 0px 0px;
+}
+
+ul.estatisticas {
+    padding: 0;
+    overflow: hidden;    
+}
+
+.estatisticas li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0px 5px 0px 0px;
+}
+
+.container .row > a{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    text-align: center;
+}
+
+.conteiner .row > a:hover {
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
+.acoes {
+    /* justify-content: center; */
+    border: 1px 2px 3px 4px;
+}
+
+.acoes a.reply i:hover, .acoes a.share i:hover {
+    border-radius: 50px;
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgba(29, 155, 240, 1);
+}
+
+.acoes a.retzeet i:hover {
+    border-radius: 50px;
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+}
+
+.acoes a.like i:hover {
+    border-radius: 50px;
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+}
+
+form {
+    background-color: rgb(239, 243, 244);
+    border-radius: 50px;
+    display: flex;
+}
+
+input {
+    overflow: hidden;
+    background-color: rgb(239, 243, 244);
+    border-radius: 50px;
+    border: 0;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.sugestions {
+    background-color: rgb(239, 243, 244);
+}
+
+.center div > button, #MyModal div > button {
+    border: 0;
+    border-radius: 50px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+textarea::placeholder {
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.icones a:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    border-radius: 50px;
+}
+
+.everyonereply a:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    border-radius: 50px;
+}
